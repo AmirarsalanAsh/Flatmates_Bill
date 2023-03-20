@@ -10,7 +10,7 @@ Objects:Bill:
         Flatmate:
             name
             days_in_house
-            pays()
+            pays(bill)
         PdfReport:
             filename
             generate(flatmate1,flatmate2,bill)
